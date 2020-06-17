@@ -9,7 +9,7 @@ Fork the repo by clicking on the fork button
 You will be redirected to a URL like this
 
 ```
-https://github.com/yourgithubusername/HNGI7-hotel-page-4
+https://github.com/yourgithubusername/Piggyinvest
 ```
 
 Click on the clone or download button to select to copy the link 
@@ -48,7 +48,7 @@ Write a commit message
 git commit -m "your message goes here"
 ```
 
-Push your branch to github 
+Push your branch to github develop branch
 ```
 git push --set-upstream origin develop
 ```
