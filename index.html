@@ -16,7 +16,7 @@
 <link href="assets/css/themes/all-themes.css" rel="stylesheet" />
 </head>
 
-<body class="theme-blue ">
+<body class="theme-blue">
 <!-- Page Loader -->
 <div class="page-loader-wrapper">
     <div class="loader">
@@ -46,8 +46,12 @@
 <!-- Top Bar -->
 <nav class="navbar clearHeader">
     <div class="col-12">
-        <div class="navbar-header"> <a href="javascript:void(0);" class="bars"></a> <a class="navbar-brand" href=""> </div>Piggyinvest Interest Calculator</a> </div>
-     
+        <div class="navbar-header"> <a href="javascript:void(0);" class="bars"></a> <a class="navbar-brand" href="">PiggyVest Interest Calculator</a> </div>
+        <ul class="nav navbar-nav navbar-right">
+             
+           
+            <li><a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i class="zmdi zmdi-settings"></i></a></li>
+        </ul>
     </div>
 </nav>
 <!-- #Top Bar -->
@@ -87,7 +91,7 @@
     <div class="container-fluid">
         <div class="block-header">
             <h2>Dashboard</h2>
-            <small class="text-muted">Welcome to Piggyinvest Interest Calculation application</small>
+            <small class="text-muted">Welcome to PiggyVest Interest Calculation application</small>
         </div>
         
         <div class="row clearfix top-report">
@@ -156,7 +160,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-12">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Enter Your desired Amount">
+                                        <input type="number" class="form-control" placeholder="Enter Your Desired Amount ">
                                     </div>
                                 </div>
                             </div>
@@ -172,9 +176,13 @@
                             <div class="col-lg-4 col-md-6 col-sm-12">
                                 <div class="form-group drop-custum">
                                     <select class="form-control show-tick">
-                                        <option value="">-- packages  --</option>
-                                        <option value="10">Flex Naira</option>
-                                        <option value="20">Flex Dollar </option>
+                                        <option value="">-- Packages  --</option>
+                                        <option value="10">Piggybank(10% per annum)</option>
+                                        <option value="20">SafeLock(Up to 15.5% per annum)</option>
+                                        <option value="30">Target Savings(10% per annum)</option>
+                                        <option value="40">Flex Naira(10% per annum)</option>
+                                        <option value="50">Flex Dollar(6% per annum)</option>
+                                        <option value="60">Investify(Up to 25% per annum)</option>
                                     </select>
                                 </div>
                             </div> 
@@ -226,16 +234,20 @@
                                 <div class="wrap-reset">
                                     <div class="mypost-list">
                                         <div class="post-box">
-                                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
-                                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+                                            <p> 10% per annum on Piggybank <br>
+                                                Up to 15.5% per annum on SafeLock <br>
+                                                10% per annum on Target Savings<br>
+                                                10% per annum on Flex Naira <br>
+                                                6% per annum on Flex Dollar <br>
+                                                Up to 25% on Investify <br>
+                                                Kindly note that interest rates are subject to change at any time based on market conditions. 
+                                            </p>
+                                            <p> How is my interest paid?
+                                                Core Savings (Piggybank)- Interest is accrued daily on your balance, and paid monthly (available from the 1st of every month).
+                                                SafeLock- Interest is paid upfront into your Flex account and you can access it immediately for free.
+                                                Target Savings- Interest is accrued daily and is paid at the end of your target.
+                                            </p>
                                         </div>
-                                        <hr>
-                                        
-                                        <hr>
-                                        <h4>Flex Naira </h4>
-                                        <ul class="dis">
-                                            <li>duration  (Year 1 to 6)</li>
-                                        </ul>
                                         <hr>
                                         
                                     </div>
@@ -249,7 +261,7 @@
                     </div>
                 </div>
             </div>
-        <div class="row clearfix">
+        <!--<div class="row clearfix">
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="card">
                     <div class="header">
@@ -363,7 +375,7 @@
                         <div class="sparkline-pie text-center">6,4,8</div>
                     </div>
                 </div>
-            </div>            
+            </div> -->            
         </div>
         <div class="row clearfix"> 
            
